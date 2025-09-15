@@ -1,0 +1,41 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(36, 36, 38);
+}
+
+.main-card {
+  margin: auto;
+  background-color: chocolate;
+  height: 30rem;
+  width: 30%;
+  border-radius: 20px;
+}
+h1 {
+  padding: 2rem;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+.inputs-area {
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: center;
+  width: 10rem;
+  text-align: center;
+  height: 2rem;
+}
