@@ -19,16 +19,19 @@
         <div>
           <h2>Agrega 3 numeros</h2>
           <div class="inputs-area">
-            <input type="number" />
-            <input type="number" />
-            <input type="number" />
+            <input id="numb1" type="number" placeholder="Write a number" />
+            <input id="numb2" type="number" placeholder="Write a number" />
+            <input id="numb3" type="number" placeholder="Write a number" />
           </div>
-          <input type="button" value="Enviar" />
+          <p class="info-message" id="info-message">
+            Llena los 3 espacios y presiona enviar
+          </p>
+          <input class="send-button" id="send" type="button" value="Enviar" />
         </div>
       </div>
       <div>
         <h2>Resultados:</h2>
-        <div id="results"></div>
+        <div id="results" class="results"></div>
       </div>
     </main>
 
